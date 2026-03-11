@@ -1,8 +1,8 @@
 -- premake5.lua
-workspace "FlatEngine"
+workspace "WorkspaceName"
    architecture "x64"
    configurations { "Debug", "Release", "Dist" }
-   startproject "FlatEngine-Editor"
+   startproject "ProjectName"
 
    -- Workspace-wide build options for MSVC
    filter "system:windows"
